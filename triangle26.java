@@ -7,12 +7,12 @@ public class triangle26{
 
         int i = 0;
         while (i<= n){
+            System.out.print("[i=" + i + "]"); //baris debug sementara
             int j = 0;
             while (j< i){
                 System.out.print("*");
                 j++;
             }
-            System.out.println();
             i++;
         }
         sc.close();
